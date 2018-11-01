@@ -1,0 +1,139 @@
+:root{
+  --bg-color: #adb5ff;
+  --secondary-bg-color:#c8cdff;
+  --main-text-color:#3d3d3d;
+  --secondary-text-color:#585858;
+  --button-color: #557eb3;
+  --button-color-hover:#748ebe;
+  --button-color-active:#425f85;
+  --secondary-button-color: #bdc3ff;
+  --main-font:Myriad Pro;
+}
+
+input{
+    font-family: var(--main-font);
+    font-size: 14px !important;
+    font-weight: normal !important;
+}
+
+html,body{
+  font-size: 14px;
+  background-color: var(--bg-color);
+  font-family: var(--main-font) !important;
+}
+
+button{
+  border: none !important;
+}
+
+.content{
+  margin-top: 15vh;
+}
+
+#main_screen{
+  display: flex;
+  align-items: center;
+}
+
+.container{
+  width: 90% !important;
+  margin-top: 20px;
+}
+
+.icon{
+  width: 33px;
+  height: 33px;
+  fill:var(--main-text-color);
+}
+
+#currency_table tr{
+  border-bottom: none;
+}
+
+#currency_table td,th{
+  padding: 5px !important;
+}
+
+#currency_table th:nth-child(1){
+  width: 1%;
+}
+
+.currency-secondary-text{
+  color: var(--secondary-button-color);
+  font-size: 11px;
+  font-weight: 300;
+}
+
+.secondary-text{
+  font-size: 12px;
+  font-weight: 300;
+}
+
+#login_box,#password_box{
+  margin-top: -2px;
+}
+
+#user_entrance,#admin_entrance{
+  border-radius: 26px;
+  box-shadow: 0 6px 4px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  margin-bottom: 20px;
+  width: 50%;
+  padding: 10px 0px;
+  float: left;
+  text-align: center;
+}
+
+.text-underline{
+  text-decoration: underline;
+}
+
+#card_buttons{
+  background: var(--bg-color);
+  float: left;
+}
+
+#entrance_card_box{
+  border-radius: 25px 25px 5px 5px;
+}
+
+#user_form_box,#admin_form_box{
+  margin-top: 20px;
+    border-radius: 25px 25px 5px 5px;
+}
+
+.active_button{
+  background-color: var(--button-color) !important;
+  color:#FFF !important;
+  box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19) !important;
+}
+
+.toggle{
+  color: var(--secondary-text-color);
+  background-color: var(--secondary-button-color);
+}
+
+.toggle:hover{
+  opacity: 0.8;
+  box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.button{
+  border-radius: 5px;
+  padding: 12px 50px;
+  background-color: var(--button-color);
+  box-shadow: 0 6px 4px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.button:hover{
+  box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  opacity: 0.85;
+}
+
+.button:active{
+  box-shadow: 0 2px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  background-color: var(--button-color-active);
+}
+
+#help_section{
+  margin-top: 30px;
+}

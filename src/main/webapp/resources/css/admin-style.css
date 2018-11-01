@@ -1,0 +1,19 @@
+.setDataForCurrencyBase{
+    margin-top: 30px;
+}
+
+.button{
+    padding: 8px 10px !important;
+}
+
+.value_input{
+    width: 78px !important;
+}
+
+span:hover{
+    cursor: pointer;
+}
+
+.cantion{
+    background-color: #dd2c00;
+}

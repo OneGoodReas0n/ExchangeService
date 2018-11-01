@@ -1,0 +1,196 @@
+p{
+    margin:2px 0px !important;
+}
+
+button{
+    border: none !important;
+}
+
+.ready{
+    background-color: #80d8ff;
+}
+
+.deleted{
+    background-color: #ff5252;
+}
+
+.processing{
+    background-color: #ffca28;
+}
+
+.container{
+    width: 75% !important;
+}
+
+.title_text{
+    font-weight: bold;
+    font-size: 16px;
+}
+#client_name{
+    margin-right: 5px;
+}
+
+.exit{
+    display: flex;
+    align-items: center;
+    float: right;
+}
+
+.icon_exit{
+    width: 20px;
+    height: : 20px;
+    margin-left: 5px;
+    margin-top: 5px;
+}
+
+.service_block{
+    width: 100%;
+}
+
+.service_left_part{
+    min-height: 302px;
+    width: 56%;
+}
+
+.service_right_part{
+    min-height: 302px;
+    width: 42.5%;
+}
+
+.block{
+    background-color: var(--secondary-bg-color);
+    box-shadow: 0 6px 4px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    margin: 3px;
+}
+
+.secondary-text{
+    color: var(--secondary-text-color);
+    font-size: 11px;
+    font-weight: 300;
+}
+
+/*CARD ACCOUNTS SECTION*/
+
+.card_accounts_table td,th{
+    padding: 5px !important;
+}
+
+.content{
+    margin: 20px 20px 25px 20px !important;
+    display: flow-root;
+}
+
+.title{
+    display: flex;
+    text-align: center;
+}
+
+.title span{
+    margin-left: 5px;
+    margin-top: 9px;
+}
+
+.card_accounts_table{
+    margin-top: 15px;
+}
+
+.card_accounts_table tr{
+    border: 1px solid grey;
+    border-radius: 5px;
+}
+
+.addCard_block{
+    display: flex;
+    justify-content: center;
+}
+
+#addCard_button{
+    color:grey;
+    margin-top: 5px;
+    border: 1px solid #bdbdbd;
+    border-top:none;
+    padding: 3px 6px;
+}
+
+.modal{
+    width: 35% !important;
+}
+
+/*EXCHANGE PROCEDURE SECTION*/
+
+.select_procedure_block{
+    margin-top: 27px;
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+.select_procedure_block input.select-dropdown{
+    font-size: 14px;
+}
+
+.select_block{
+    width: 43%;
+}
+
+#money_amount{
+    padding-left: 10px;
+}
+
+.withBorder{
+    border: 1px solid grey !important;
+}
+
+/*TRANSACTIONS SECTION*/
+
+.transaction_table_block{
+    float: left;
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+.transaction_select_block{
+    color: var(--secondary-text-color);
+    background-color: var(--bg-color);
+    border-radius:3px;
+    margin-bottom: 10px;
+    box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.transaction_select_block input.select-dropdown{
+    font-size: 14px;
+    width: 185px;
+    padding: 1px 15px;
+    margin: 0 !important;
+}
+
+.button_transaction_journal{
+    color:white;
+    padding: 10px 20px;
+}
+
+/*COURSE SECTION*/
+
+.inline_select_course_block{
+    margin-top: 40px;
+}
+
+.select_course{
+    margin-bottom: 20px;
+}
+
+.select_button{
+    padding: 10px 20px;
+    border-radius: 25px;
+}
+
+#NBU,#Privat{
+    box-shadow: 0 6px 4px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+#NBU,#Privat:hover{
+    cursor: pointer;
+}
+
+.course_table tr:last-child{
+    border-bottom: none;
+}
